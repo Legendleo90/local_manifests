@@ -4,7 +4,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/beryllium" name="Krtonia/xiaomi_beryllium.git" remote="github" revision="twelve" />
  <project path="device/xiaomi/sdm845-common" name="Krtonia/CR-common.git" remote="github" revision="12.1" />
- <project path="vendor/xiaomi" name="Krtonia/bery_vendor.git" remote="github" revision="twelve" />
+ <project path="vendor/xiaomi" name="Krtonia/CR-vendor.git" remote="github" revision="12.1" />
  <project path="kernel/xiaomi/sdm845" name="Painkiller3/kernel_xiaomi_sdm845.git" remote="github" revision="twelve" />
  <project path="hardware/xiaomi" name="Krtonia/hardware_xiaomi.git" remote="github" revision="lineage-19.1" />
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang.git" remote="github" revision="master" />
