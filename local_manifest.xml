@@ -2,7 +2,7 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/xiaomi/beryllium" name="Krtonia/xiaomi_beryllium.git" remote="github" revision="twelve" />
+ <project path="device/xiaomi/beryllium" name="Krtonia/xiaomi_beryllium" remote="github" revision="twelve" />
  <project path="device/xiaomi/sdm845-common" name="baka-hokage/device_xiaomi_sdm845-common" remote="github" revision="12.1" />
  <project path="vendor/xiaomi" name="baka-hokage/proprietary_vendor_xiaomi" remote="github" revision="12.1" />
  <project path="kernel/xiaomi/sdm845" name="Painkiller3/kernel_xiaomi_sdm845.git" remote="github" revision="twelve" />
