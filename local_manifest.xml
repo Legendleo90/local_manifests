@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-<remote name="Krtonia" fetch="https://github.com/Krtonia" />
 
      <!--Trees-->
-
-  <project path="device/xiaomi/beryllium" name="beryllium" remote="krtonia" revision="aosp-12.1" />
- 
-  <project path="device/xiaomi/sdm845-common" name="common" remote="krtonia" revision="aosp-12.1" />
-           
-  <project path="vendor/xiaomi/beryllium" name="test_vendor" remote="Krtonia" revision="aosp-12.1" />
-
-  <project path="kernel/xiaomi/sdm845" name="silver" remote="Krtonia" revision="twelve" />
+  
+<project path="device/xiaomi/beryllium" name="Krtonia/beryllium.git" remote="github" revision="aosp-12.1" />
+<project path="device/xiaomi/sdm845-common" name="Krtonia/common.git" remote="github" revision="aosp12.1" />
+<project path="vendor/xiaomi" name="Krtonia/test_vendor.git" remote="github" revision="aosp12.1" />
+<project path="kernel/xiaomi/sdm845" name="Krtonia/silver.git" remote="github" revision="twelve" />
            
     <!--Replacements-->
   
   <remove-project name="hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="hardware_beryllium" remote="krtonia" revision="lineage-19.1" />
+  <project path="hardware/xiaomi" name="Krtonia/hardware_beryllium.git" remote="github" revision="lineage-19.1" />
  
     <!-- Toolchain -->
 
