@@ -4,7 +4,6 @@
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="VoltageOS" fetch="https://github.com/VoltageOS" /> 
 
-
      <!--Trees-->
   
 <project path="device/xiaomi/beryllium" name="Krtonia/beryllium.git" remote="github" revision="aosp-12.1" />
