@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <remote name="Krtonia" fetch="https://github.com/Krtonia" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="VoltageOS" fetch="https://github.com/VoltageOS" /> 
-
-     <!--Trees-->
+  <remote name="Krtonia"
+          fetch="https://github.com/Krtonia"/>
   
-<project path="device/xiaomi/beryllium" name="Krtonia/beryllium.git" remote="github" revision="aosp-12.1" />
-<project path="device/xiaomi/sdm845-common" name="Krtonia/common.git" remote="github" revision="aosp12.1" />
-<project path="vendor/xiaomi" name="Krtonia/test_vendor.git" remote="github" revision="aosp12.1" />
-<project path="kernel/xiaomi/sdm845" name="Krtonia/silver.git" remote="github" revision="twelve" />
+<!--Trees-->
+  <project path="device/xiaomi/beryllium"
+           name="priv-no-clone"
+           remote="Krtonia"
+           revision="sysext" />
            
-    <!--Replacements-->
+  <project path="device/xiaomi/sdm845-common"
+           name="Test-com-x1"
+           remote="Krtonia"
+           revision="sysext" />
+           
+  <project path="vendor/xiaomi"
+           name="CR-vendor"
+           remote="Krtonia"
+           revision="12.1" />
+           
+  <project path="kernel/xiaomi/sdm845"
+           name="sc"
+           remote="Krtonia"
+           revision="twelve" />
+           
+<!--Toolchain-->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton"
+           name="clang"
+           remote="Krtonia"
+           revision="master" clone-depth="1" />
   
-  <remove-project name="hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="Krtonia/hardware_beryllium.git" remote="github" revision="lineage-19.1" />
- 
-    <!-- Toolchain -->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
-
 </manifest>
 
