@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Krtonia"
-          fetch="https://github.com/Krtonia"/>
+  <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
+  <remote name="PainKiller3" fetch="https://github.com/PainKiller3"/>
+  <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
+  <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="priv-no-clone"
+           name="device_xiaomi_beryllium"
            remote="Krtonia"
-           revision="sysext" />
+           revision="blaze" />
            
   <project path="device/xiaomi/sdm845-common"
-           name="Test-com-x1"
+           name="device_xiaomi_sdm845-common"
            remote="Krtonia"
-           revision="sysext" />
+           revision="blaze" />
            
   <project path="vendor/xiaomi"
-           name="CR-vendor"
+           name="beryllium-vendor"
            remote="Krtonia"
-           revision="12.1" />
+           revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="sc"
-           remote="Krtonia"
-           revision="twelve" />
+           name="kernel_xiaomi_sdm845"
+           remote="PainKiller3"
+           revision="thirteen" />
+  
+<!--Removals-->
+  <remove-project name="hardware_xiaomi" />
+  
+<!-- Hardware -->
+  <project path="hardware/xiaomi" 
+           name="android_hardware_xiaomi" 
+           remote="ArrowOS-Devices" 
+           revision="arrow-13.0" />
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/clang-proton"
-           name="clang"
-           remote="Krtonia"
+           name="proton-clang"
+           remote="kdrag0n"
            revision="master" clone-depth="1" />
   
 </manifest>
-
