@@ -14,16 +14,16 @@
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
            remote="Krtonia"
-           revision="blaze" />
+           revision="blaze-13" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Krtonia"
-           revision="13" />
+           revision="main" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kernel_xiaomi_sdm845"
-           remote="PainKiller3"
+           name="Silvercore"
+           remote="Krtonia"
            revision="thirteen" />
   
 <!--Removals-->
