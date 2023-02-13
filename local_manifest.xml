@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
-  <remote name="PainKiller3" fetch="https://github.com/PainKiller3"/>
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -34,6 +34,12 @@
            name="android_hardware_xiaomi" 
            remote="ArrowOS-Devices" 
            revision="arrow-13.0" />
+  
+<!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="clang-r450784d" 
+           remote="ImSurajxD" 
+           revision="master" />
            
 <!--Toolchain-->
   <project path="prebuilts/clang/host/linux-x86/clang-proton"
