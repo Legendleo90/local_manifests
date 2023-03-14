@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
+  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
@@ -22,9 +23,9 @@
            revision="main" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="Silvercore"
+           name="kawaii_kernel_sdm845"
            remote="Krtonia"
-           revision="thirteen" />
+           revision="13" />
   
 <!--Removals-->
   <remove-project name="hardware_xiaomi" />
@@ -42,9 +43,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton"
-           name="proton-clang"
-           remote="kdrag0n"
-           revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/trb_clang"
+           name="trb_clang" 
+           remote="trb" 
+           revision="17" clone-depth="1" />
   
 </manifest>
