@@ -10,7 +10,7 @@
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Saitama69k"
-           revision="13" />
+           revision="spark" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
