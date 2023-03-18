@@ -2,7 +2,6 @@
 <manifest>
   <remote name="Saitama69k" fetch="https://github.com/Saitama69k"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
