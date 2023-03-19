@@ -15,16 +15,16 @@
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
            remote="Saitama69k"
-           revision="main" />
+           revision="rice" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
-           remote="Krtonia"
-           revision="main" />
+           remote="Saitama69k"
+           revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
            name="kawaii_kernel_sdm845"
-           remote="Krtonia"
+           remote="Saitama69k"
            revision="13" />
   
 <!--Removals-->
