@@ -23,10 +23,10 @@
            revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kawaii_kernel_sdm845"
+           name="kernel_xiaomi_sdm845"
            remote="Saitama69k"
-           revision="13" />
-  
+           revision="thirteen" />
+
 <!--Removals-->
   <remove-project name="hardware_xiaomi" />
   
