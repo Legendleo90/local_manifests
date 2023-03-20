@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="Saitama69k" fetch="https://github.com/Saitama69k"/>
+  <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
-           remote="Saitama69k"
+           remote="Legendleo90"
            revision="spark" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
-           remote="Saitama69k"
+           remote="Legendleo90"
            revision="spark" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
-           remote="Saitama69k"
+           remote="Legendleo90"
            revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
            name="kernel_xiaomi_sdm845"
-           remote="Saitama69k"
+           remote="Legendleo90"
            revision="thirteen" />
 
 <!--Clang--> 
