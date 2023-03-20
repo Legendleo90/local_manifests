@@ -16,9 +16,9 @@
            revision="spark" />
            
   <project path="vendor/xiaomi"
-           name="beryllium-vendor"
+           name="vendor_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="13" />
+           revision="thirteen" />
            
   <project path="kernel/xiaomi/sdm845"
            name="kernel_xiaomi_sdm845"
