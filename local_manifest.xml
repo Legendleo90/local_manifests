@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
-  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+  <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
@@ -33,9 +33,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
-           revision="17" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton"
+           name="proton-clang" 
+           remote="kdragon" 
+           revision="master" clone-depth="1" />
   
 </manifest>
