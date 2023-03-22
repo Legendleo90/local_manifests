@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="Krtonia" fetch="https://github.com/Krtonia"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
@@ -17,9 +16,9 @@
            revision="spark" />
            
   <project path="vendor/xiaomi"
-           name="beryllium-vendor"
-           remote="Krtonia"
-           revision="main" />
+           name="vendor_xiaomi"
+           remote="Legendleo90"
+           revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
            name="kernel_xiaomi_sdm845"
