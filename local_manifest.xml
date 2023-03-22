@@ -17,7 +17,7 @@
            revision="spark" />
            
   <project path="vendor/xiaomi"
-           name="vendor_xiaomi"
+           name="beryllium-vendor"
            remote="Legendleo90"
            revision="13" />
            
