@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="web" fetch="https://github.com/CatOS-Tiramisu" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  
-<!--Removals-->
-  <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -28,11 +24,6 @@
            name="android_kernel_xiaomi_sdm845"
            remote="Legendleo90"
            revision="lineage-20" />
-  
-  <project path="external/chromium-webview/prebuilt/arm64"
-           name="android_external_chromium-webview_prebuilt_arm64" 
-           remote="web"
-           revision="main" />
 
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
