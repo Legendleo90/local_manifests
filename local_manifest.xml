@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="arrow" fetch="https://github.com/ArrowOS"/>
-  <remote name="devices" fetch="https://github.com/ArrowOS-Devices" />
+  <remote name="devices" fetch="https://github.com/LineageOS" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
@@ -37,7 +37,7 @@
   <project path="hardware/xiaomi" 
            name="android_hardware_xiaomi" 
            remote="devices"
-           revision="arrow-13.0" />
+           revision="lineage-20" />
 
 
 <!--Hals-->
