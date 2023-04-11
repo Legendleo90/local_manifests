@@ -38,8 +38,7 @@
            name="android_hardware_xiaomi" 
            remote="devices"
            revision="lineage-20" />
-
-
+ 
 <!--Hals-->
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="arrow" revision="arrow-13.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="arrow" revision="arrow-13.0-caf-sdm845" />
