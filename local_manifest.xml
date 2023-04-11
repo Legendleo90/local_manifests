@@ -21,9 +21,9 @@
            revision="13" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="android_kernel_xiaomi_sdm845"
+           name="silvercore"
            remote="Legendleo90"
-           revision="lineage-20" />
+           revision="thirteen" />
 
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
