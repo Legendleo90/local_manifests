@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+  <remote name="ArrowOS" fetch="https://github.com/ArrowOS"/>
   <remote name="BAN" fetch="https://github.com/bananadroid" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
@@ -9,6 +9,8 @@
 <!--Removals-->
   <remove-project name="android_frameworks_base"/>
   <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_audio" />
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -36,11 +38,10 @@
            remote="BAN"
            revision="13" />
   
-<!-- HALS -->
-  <project path="android/hardware/qcom/media" 
-           name="android_hardware_qcom_sdm845_media" 
-           remote="LineageOS"
-           revision="lineage-20.0" />
+<!--Hals-->
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
