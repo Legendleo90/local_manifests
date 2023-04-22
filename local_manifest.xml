@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="ArrowOS" fetch="https://github.com/ArrowOS"/>
-  <remote name="dev" fetch="https://github.com/Cherish-OS-Devices"/>
+  <remote name="dev" fetch="https://github.com/CherishOS-Devices"/>
   <remote name="BAN" fetch="https://github.com/bananadroid" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
