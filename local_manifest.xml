@@ -21,12 +21,12 @@
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
            remote="Legendleo90"
-           revision="cherish" />
+           revision="13" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Legendleo90"
-           revision="13" />
+           revision="thirteen" />
            
   <project path="kernel/xiaomi/sdm845"
            name="silvercore"
