@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="ArrowOS" fetch="https://github.com/ArrowOS"/>
-  <remote name="dev" fetch="https://github.com/CherishOS-Devices"/>
+  <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
   <remote name="BAN" fetch="https://github.com/bananadroid" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
@@ -21,18 +21,18 @@
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
-           remote="dev"
+           remote="cher"
            revision="13" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Legendleo90"
-           revision="thirteen" />
+           revision="main" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="silvercore"
+           name="kawaii_kernel_sdm845"
            remote="Legendleo90"
-           revision="thirteen" />
+           revision="test" />
   
   <project path="frameworks/base"
            name="android_frameworks_base"
