@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="ArrowOS" fetch="https://github.com/ArrowOS"/>
   <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
   <remote name="BAN" fetch="https://github.com/bananadroid" />
@@ -10,10 +9,7 @@
 
 <!--Removals-->
   <remove-project name="android_frameworks_base"/>
-  <remove-project name="android_hardware_qcom_media" />
-  <remove-project name="android_hardware_qcom_display" />
-  <remove-project name="android_hardware_qcom_audio" />
-
+  
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
@@ -45,11 +41,6 @@
            name="packages_apps_memecam"
            remote="mi"
            revision="main" clone-depth="1" />
- 
-<!--Hals-->
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
