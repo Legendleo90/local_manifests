@@ -2,6 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="ArrowOS" fetch="https://github.com/ArrowOS"/>
+  <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
   <remote name="BAN" fetch="https://github.com/bananadroid" />
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
@@ -38,7 +39,13 @@
            name="android_frameworks_base"
            remote="BAN"
            revision="13" />
-  
+ 
+<!--ANX Cam-->
+  <project path="packages/apps/memecam"
+           name="packages_apps_memecam"
+           remote="mi"
+           revision="main" clone-depth="1" />
+ 
 <!--Hals-->
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="ArrowOS" revision="arrow-13.0-caf-sdm845" />
