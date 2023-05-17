@@ -4,7 +4,7 @@
   <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
   <remote name="BAN" fetch="https://github.com/bananadroid" />
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
+  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
 <!--Removals-->
@@ -49,9 +49,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton"
-           name="proton-clang" 
-           remote="kdrag0n" 
-           revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/trb_clang"
+           name="trb_clang" 
+           remote="trb" 
+           revision="17" clone-depth="1" />
   
 </manifest>
