@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
+  <remote name="Al" fetch="https://github.com/AlphaDroid-devices"/>
   <remote name="ArrowOS" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
@@ -8,14 +9,14 @@
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="alpha_xiaomi_beryllium"
-           remote="Legendleo90"
-           revision="13" />
+           name="device_xiaomi_beryllium"
+           remote="Al"
+           revision="alpha-13" />
            
   <project path="device/xiaomi/sdm845-common"
-           name="alpha_xiaomi_sdm845-common"
-           remote="Legendleo90"
-           revision="13" />
+           name="device_xiaomi_sdm845-common"
+           remote="Al"
+           revision="alpha-13" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
