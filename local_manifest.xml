@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
+  <remote name="ArrowOS" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
-  <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
-  <remote name="BAN" fetch="https://github.com/bananadroid" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-<!--Removals-->
-  <remove-project name="android_frameworks_base"/>
-  
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
+           name="alpha_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="banana" />
+           revision="13" />
            
   <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
-           remote="cher"
+           name="alpha_xiaomi_sdm845-common"
+           remote="Legendleo90"
            revision="13" />
            
   <project path="vendor/xiaomi"
@@ -29,13 +25,14 @@
   <project path="kernel/xiaomi/sdm845"
            name="kawaii_kernel_sdm845"
            remote="Legendleo90"
-           revision="test" />
+           revision="stable" />
   
-  <project path="frameworks/base"
-           name="android_frameworks_base"
-           remote="BAN"
-           revision="13" />
- 
+<!--Hardware-->
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="ArrowOS"
+           revision="arrow-13.1" />
+
 <!--ANX Cam-->
   <project path="packages/apps/memecam"
            name="packages_apps_memecam"
