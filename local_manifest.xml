@@ -6,9 +6,6 @@
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-<!--Removals-->
-  <remove-project name="android_frameworks_base"/>
-  
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
@@ -29,12 +26,7 @@
            name="kawaii_kernel_sdm845"
            remote="Legendleo90"
            revision="stable" />
-  
-  <project path="frameworks/base"
-           name="banana_frameworks"
-           remote="Legendleo90"
-           revision="13" />
- 
+
 <!--ANX Cam-->
   <project path="packages/apps/memecam"
            name="packages_apps_memecam"
