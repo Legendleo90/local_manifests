@@ -26,6 +26,12 @@
            name="kawaii_kernel_sdm845"
            remote="Legendleo90"
            revision="stable" />
+  
+<!--Trees-->
+  <project path="vendor/addons"
+           name="alpha_vendor"
+           remote="Legendleo90"
+           revision="alpha-13" />
 
 <!--ANX Cam-->
   <project path="packages/apps/memecam"
