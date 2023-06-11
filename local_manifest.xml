@@ -6,7 +6,10 @@
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-<!--Trees-->
+  <!--Removals-->
+  <remove-project name="vendor_addons"/>
+  
+  <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Al"
@@ -27,7 +30,7 @@
            remote="Legendleo90"
            revision="stable" />
   
-<!--Trees-->
+<!--Custom-->
   <project path="vendor/addons"
            name="alpha_vendor"
            remote="Legendleo90"
