@@ -8,6 +8,7 @@
 
   <!--Removals-->
   <remove-project name="vendor_addons"/>
+  <remove-project name="frameworks_base"/>
   
   <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -33,6 +34,11 @@
 <!--Custom-->
   <project path="vendor/addons"
            name="alpha_vendor"
+           remote="Legendleo90"
+           revision="alpha-13" />
+  
+  <project path="frameworks/base"
+           name="alpha_framework"
            remote="Legendleo90"
            revision="alpha-13" />
 
