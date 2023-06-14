@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
+  <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
@@ -26,6 +27,12 @@
            name="kawaii_kernel_sdm845"
            remote="Legendleo90"
            revision="stable" />
+
+<!--Hardware-->
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="hard"
+           revision="arrow-13.1" />
 
 <!--ANX Cam-->
   <project path="packages/apps/memecam"
