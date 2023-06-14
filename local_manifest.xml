@@ -9,9 +9,9 @@
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
+           name="xtended_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="banana" />
+           revision="13" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
