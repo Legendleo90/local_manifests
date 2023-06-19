@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
-  <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
+  <remote name="cam" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
@@ -36,8 +36,8 @@
 <!--ANX Cam-->
   <project path="packages/apps/memecam"
            name="packages_apps_memecam"
-           remote="mi"
-           revision="main" clone-depth="1" />
+           remote="cam"
+           revision="main" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
