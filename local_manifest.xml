@@ -23,7 +23,7 @@
            revision="main" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="electro_kernel_beryllium"
+           name="atomx_kernel_beryllium"
            remote="Legendleo90"
            revision="kernelsu" />
 
