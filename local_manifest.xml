@@ -2,6 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="Al" fetch="https://github.com/AlphaDroid-devices"/>
+  <remote name="cam" fetch="https://github.com/resist15"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
