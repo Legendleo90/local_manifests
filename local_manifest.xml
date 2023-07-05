@@ -2,13 +2,8 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="Al" fetch="https://github.com/AlphaDroid-devices"/>
-  <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-
-  <!--Removals-->
-  <remove-project name="vendor_addons"/>
-  <remove-project name="frameworks_base"/>
   
   <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -24,29 +19,18 @@
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Legendleo90"
-           revision="main" />
+           revision="dolby" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kawaii_kernel_sdm845"
+           name="atomx_kernel_beryllium"
            remote="Legendleo90"
-           revision="stable" />
+           revision="13" />
   
-<!--Custom-->
-  <project path="vendor/addons"
-           name="alpha_vendor"
-           remote="Legendleo90"
-           revision="alpha-13" />
-  
-  <project path="frameworks/base"
-           name="alpha_framework"
-           remote="Legendleo90"
-           revision="alpha-13" />
-
-<!--ANX Cam-->
-  <project path="packages/apps/memecam"
-           name="packages_apps_memecam"
-           remote="mi"
-           revision="main" clone-depth="1" />
+<!--MI Cam-->
+  <project path="vendor/miuicamera"
+           name="vendor_miuicamera"
+           remote="cam"
+           revision="arrow-13.1" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
