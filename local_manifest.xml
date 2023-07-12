@@ -27,7 +27,7 @@
            remote="Legendleo90"
            revision="13" />
 
-<!--Trees-->
+<!--Hardware-->
   <project path="hardware/xiaomi"
            name="android_hardware_xiaomi"
            remote="hard"
