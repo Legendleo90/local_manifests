@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="cam" fetch="https://github.com/resist15"/>
-  <remote name="hard" fetch="https://github.com/ArrowOS-Devices"/>
+  <remote name="hard" fetch="https://github.com/PixelExperience"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
@@ -29,9 +29,9 @@
 
 <!--Hardware-->
   <project path="hardware/xiaomi"
-           name="android_hardware_xiaomi"
+           name="hardware_xiaomi"
            remote="hard"
-           revision="arrow-13.1" />
+           revision="thirteen" />
   
 <!--MI Cam-->
   <project path="vendor/miuicamera"
