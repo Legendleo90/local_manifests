@@ -3,8 +3,7 @@
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="hard" fetch="https://github.com/PixelExperience"/>
   <remote name="kernel" fetch="https://github.com/PixelExperience-Devices"/>
-  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="pre" fetch="https://gitlab.com/jjpprrrr" />
 
 <!--Trees-->
   <project path="device/xiaomi/sdm845-common"
@@ -28,16 +27,10 @@
            remote="hard"
            revision="thirteen" />
   
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
-           
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
-           revision="17" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-prelude"
+           name="prelude-clang" 
+           remote="pre" 
+           revision="master" clone-depth="1" />
   
 </manifest>
