@@ -1,44 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="cam" fetch="https://github.com/resist15"/>
   <remote name="hard" fetch="https://github.com/PixelExperience"/>
-  <remote name="kernel" fetch="https://github.com/PixelOS-Devices"/>
+  <remote name="kernel" fetch="https://github.com/PixelExperience-Devices"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
 <!--Trees-->
-  <project path="device/xiaomi/beryllium"
-           name="pe_xiaomi_beryllium"
-           remote="Legendleo90"
-           revision="13" />
-           
   <project path="device/xiaomi/sdm845-common"
            name="pe_xiaomi_sdm845-common"
            remote="Legendleo90"
-           revision="13" />
+           revision="thirteen" />
            
   <project path="vendor/xiaomi"
            name="beryllium-vendor"
            remote="Legendleo90"
-           revision="dolby" />
+           revision="thirteen" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kernel_xiaomi_sdm845"
+           name="kernel_xiaomi_polaris"
            remote="kernel"
-           revision="dev-cputuning" />
+           revision="thirteen" />
 
 <!--Hardware-->
   <project path="hardware/xiaomi"
            name="hardware_xiaomi"
            remote="hard"
            revision="thirteen" />
-  
-<!--MI Cam-->
-  <project path="vendor/miuicamera"
-           name="vendor_miuicamera"
-           remote="cam"
-           revision="arrow-13.1" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
