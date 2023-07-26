@@ -32,7 +32,7 @@
            remote="ven"
            revision="thirteen" />
            
-  <project path="kernel/xiaomi/sdm845"
+  <project path="kernel/xiaomi/beryllium"
            name="kernel_xiaomi_polaris"
            remote="kernel"
            revision="thirteen" />
