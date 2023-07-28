@@ -2,39 +2,22 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="hard" fetch="https://github.com/PixelExperience"/>
-  <remote name="kernel" fetch="https://github.com/PixelExperience-Devices"/>
-  <remote name="ven" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
   <remote name="pre" fetch="https://gitlab.com/jjpprrrr" />
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
+           name="pe_xiaomi_sdm845-common"
            remote="Legendleo90"
-           revision="thirteen" />
-
-  <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
-           remote="kernel"
-           revision="thirteen" />
+           revision="thirteen-new" />
   
-  <project path="vendor/xiaomi/beryllium"
-           name="vendor_xiaomi_beryllium"
-           remote="ven"
-           revision="thirteen-old" />
+  <project path="vendor/xiaomi"
+           name="beryllium-vendor"
+           remote="Legendleo90"
+           revision="main" />
 
-  <project path="vendor/xiaomi/sdm845-common"
-           name="vendor_xiaomi_sdm845-common"
-           remote="ven"
-           revision="thirteen" />
-
-  <project path="vendor/xiaomi-firmware"
-           name="vendor_xiaomi-firmware"
-           remote="ven"
-           revision="thirteen" />
-           
-  <project path="kernel/xiaomi/beryllium"
-           name="kernel_xiaomi_polaris"
-           remote="kernel"
+  <project path="kernel/xiaomi/sdm845"
+           name="kernel_xiaomi_beryllium"
+           remote="Legendleo90"
            revision="thirteen" />
 
 <!--Hardware-->
