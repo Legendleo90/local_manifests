@@ -10,7 +10,7 @@
            remote="Legendleo90"
            revision="thirteen-new" />
   
-  <project path="vendor/xiaomi"
+  <project path="vendor/xiaomi/beryllium"
            name="beryllium-vendor"
            remote="Legendleo90"
            revision="thirteen-new" />
