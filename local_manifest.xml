@@ -8,7 +8,7 @@
   <project path="device/xiaomi/beryllium"
            name="pe_xiaomi_sdm845-common"
            remote="Legendleo90"
-           revision="thirteen-new" />
+           revision="thirteen" />
   
   <project path="vendor/xiaomi/beryllium"
            name="beryllium-vendor"
