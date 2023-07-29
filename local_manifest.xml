@@ -15,7 +15,7 @@
            remote="Legendleo90"
            revision="thirteen" />
 
-  <project path="kernel/xiaomi/sdm845"
+  <project path="kernel/xiaomi/beryllium"
            name="kernel_xiaomi_beryllium"
            remote="Legendleo90"
            revision="thirteen" />
