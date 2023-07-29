@@ -13,7 +13,7 @@
   <project path="vendor/xiaomi/beryllium"
            name="beryllium-vendor"
            remote="Legendleo90"
-           revision="thirteen-new" />
+           revision="thirteen" />
 
   <project path="kernel/xiaomi/sdm845"
            name="kernel_xiaomi_beryllium"
