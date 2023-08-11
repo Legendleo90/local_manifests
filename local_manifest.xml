@@ -6,12 +6,12 @@
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="pe_xiaomi_sdm845-common"
+           name="device_xiaomi_beryllium"
            remote="Legendleo90"
            revision="thirteen" />
   
   <project path="vendor/xiaomi/beryllium"
-           name="beryllium-vendor"
+           name="vendor_xiaomi_beryllium"
            remote="Legendleo90"
            revision="thirteen" />
 
