@@ -4,14 +4,17 @@
   <remote name="hard" fetch="https://github.com/PixelExperience"/>
   <remote name="pre" fetch="https://gitlab.com/jjpprrrr" />
 
+<!--Removals-->
+  <remove-project name="android_external_chromium-webview_prebuilt_arm64"/>
+  
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
+           name="rising_xiaomi_beryllium"
            remote="Legendleo90"
            revision="thirteen" />
   
   <project path="vendor/xiaomi/beryllium"
-           name="vendor_xiaomi_beryllium"
+           name="rising_vendor_beryllium"
            remote="Legendleo90"
            revision="thirteen" />
 
@@ -19,6 +22,18 @@
            name="kernel_xiaomi_beryllium"
            remote="Legendleo90"
            revision="thirteen" />
+
+<!--MI Cam-->
+  <project path="vendor/miuicamera"
+           name="vendor_miuicamera"
+           remote="Legendleo90"
+           revision="thirteen" />
+  
+<!--Custom-->
+  <project path="external/chromium-webview/prebuilt/arm64"
+           name="android_external_chromium-webview_prebuilt_arm64"
+           remote="Legendleo90"
+           revision="main" />
 
 <!--Hardware-->
   <project path="hardware/xiaomi"
