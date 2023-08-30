@@ -6,8 +6,6 @@
   <remote name="hard" fetch="https://github.com/crdroidandroid"/>
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-
-  <remove-project name="android_hardware_oneplus" />
   
   <!--Trees-->
   <project path="device/oneplus/fajita"
