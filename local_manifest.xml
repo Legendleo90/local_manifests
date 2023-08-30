@@ -7,7 +7,7 @@
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-  <remove-project name="hardware/oneplus" />
+  <remove-project name="android_hardware_oneplus" />
   
   <!--Trees-->
   <project path="device/oneplus/fajita"
