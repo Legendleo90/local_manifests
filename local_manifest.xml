@@ -4,6 +4,9 @@
   <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
   <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+
+<remove-project name="packages_apps_Settings" />
+<remove-project name="frameworks_base" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -31,6 +34,17 @@
            name="vendor_miuicamera" 
            remote="Legendleo90" 
            revision="thirteen" />
+
+<!--Custom--> 
+  <project path="frameworks/base" 
+           name="spark_fwb" 
+           remote="Legendleo90" 
+           revision="pyro-next" />
+
+  <project path="packages/apps/Settings" 
+           name="spark_settings" 
+           remote="Legendleo90" 
+           revision="pyro-next" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
