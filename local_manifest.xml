@@ -25,6 +25,12 @@
            name="kawaii_kernel_sdm845"
            remote="Legendleo90"
            revision="thirteen" />
+
+<!--MI Cam--> 
+  <project path="vendor/miuicamera" 
+           name="vendor_miuicamera" 
+           remote="Legendleo90" 
+           revision="thirteen" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
