@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="cher" fetch="https://github.com/CherishOS-Devices"/>
-  <remote name="mi" fetch="https://gitlab.com/RahulGorai0206"/>
-  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+  <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
+  <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="spark_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="13" />
+           revision="thirteen" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
-           remote="cher"
-           revision="13" />
+           remote="tree"
+           revision="spark" />
            
   <project path="vendor/xiaomi"
-           name="beryllium-vendor"
-           remote="Legendleo90"
-           revision="main" />
+           name="vendor_xiaomi"
+           remote="tree"
+           revision="spark" />
            
   <project path="kernel/xiaomi/sdm845"
            name="kawaii_kernel_sdm845"
            remote="Legendleo90"
-           revision="stable" />
-  
-<!--ANX Cam-->
-  <project path="packages/apps/memecam"
-           name="packages_apps_memecam"
-           remote="mi"
-           revision="main" clone-depth="1" />
+           revision="thirteen" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
@@ -40,9 +33,9 @@
            revision="master" />
            
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
+  <project path="prebuilts/clang/host/linux-x86/clang-playground"
+           name="playgroundtc" 
+           remote="pg" 
            revision="17" clone-depth="1" />
   
 </manifest>
