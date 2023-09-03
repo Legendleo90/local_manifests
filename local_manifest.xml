@@ -15,8 +15,8 @@
            revision="thirteen" />
            
   <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
-           remote="tree"
+           name="device_xiaomi_beryllium"
+           remote="Legendleo90"
            revision="spark" />
            
   <project path="vendor/xiaomi"
