@@ -5,24 +5,21 @@
   <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
-<remove-project name="packages_apps_Settings" />
-<remove-project name="frameworks_base" />
-  
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="spark_xiaomi_beryllium"
-           remote="Legendleo90"
-           revision="thirteen" />
+           name="device_xiaomi_beryllium"
+           remote="tree"
+           revision="alpha" />
            
   <project path="device/xiaomi/sdm845-common"
            name="device_xiaomi_sdm845-common"
            remote="tree"
-           revision="thirteen" />
+           revision="alpha" />
            
   <project path="vendor/xiaomi"
            name="vendor_xiaomi"
            remote="tree"
-           revision="spark" />
+           revision="thirteen" />
            
   <project path="kernel/xiaomi/sdm845"
            name="kawaii_kernel_sdm845"
@@ -34,17 +31,6 @@
            name="vendor_miuicamera" 
            remote="Legendleo90" 
            revision="thirteen" />
-
-<!--Custom--> 
-  <project path="frameworks/base" 
-           name="spark_fwb" 
-           remote="Legendleo90" 
-           revision="pyro-next" />
-
-  <project path="packages/apps/Settings" 
-           name="spark_settings" 
-           remote="Legendleo90" 
-           revision="pyro-next" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
