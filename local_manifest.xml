@@ -1,41 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="hard" fetch="https://github.com/PixelExperience"/>
-  <remote name="pre" fetch="https://gitlab.com/jjpprrrr" />
+  <remote name="trees" fetch="https://github.com/Oneplus-6T"/>
+  <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
+  <remote name="hardware" fetch="https://gitlab.com/ArrowOS-Devices" />
+  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="rising_xiaomi_beryllium"
+           name="device_xiaomi_beryllium"
+           remote="tree"
+           revision="rise" />
+           
+  <project path="device/xiaomi/sdm845-common"
+           name="device_xiaomi_sdm845-common"
+           remote="tree"
+           revision="thirteen" />
+           
+  <project path="vendor/xiaomi"
+           name="vendor_xiaomi"
+           remote="tree"
+           revision="thirteen" />
+           
+  <project path="kernel/xiaomi/sdm845"
+           name="kawaii_kernel_sdm845"
            remote="Legendleo90"
+           revision="thirteen" />
+
+<!--Hardware--> 
+  <project path="hardware/xiaomi" 
+           name="android_hardware_xiaomi" 
+           remote="hardware" 
+           revision="arrow-13.1" />
+
+<!--MI Cam--> 
+  <project path="vendor/miuicamera" 
+           name="vendor_miuicamera" 
+           remote="Legendleo90" 
            revision="thirteen" />
   
-  <project path="vendor/xiaomi/beryllium"
-           name="rising_vendor_beryllium"
-           remote="Legendleo90"
-           revision="thirteen" />
-
-  <project path="kernel/xiaomi/beryllium"
-           name="kernel_xiaomi_beryllium"
-           remote="Legendleo90"
-           revision="thirteen" />
-
-<!--MI Cam-->
-  <project path="vendor/miuicamera"
-           name="vendor_miuicamera"
-           remote="Legendleo90"
-           revision="thirteen" />
-
-<!--Hardware-->
-  <project path="hardware/xiaomi"
-           name="hardware_xiaomi"
-           remote="hard"
-           revision="thirteen" />
-  
+<!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="clang-r450784d" 
+           remote="ImSurajxD" 
+           revision="master" />
+           
 <!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-prelude"
-           name="prelude-clang" 
-           remote="pre" 
-           revision="master" clone-depth="1" />
-  
+  <project path="prebuilts/clang/host/linux-x86/clang-playground"
+           name="playgroundtc" 
+           remote="pg" 
+           revision="17" clone-depth="1" />
+
 </manifest>
