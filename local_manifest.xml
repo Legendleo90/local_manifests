@@ -3,7 +3,6 @@
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
   <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
-  <remote name="hardware" fetch="https://gitlab.com/ArrowOS-Devices" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
@@ -29,9 +28,9 @@
 
 <!--Hardware--> 
   <project path="hardware/xiaomi" 
-           name="android_hardware_xiaomi" 
-           remote="hardware" 
-           revision="arrow-13.1" />
+           name="hardware_xiaomi" 
+           remote="Legendleo90" 
+           revision="thirteen" />
 
 <!--MI Cam--> 
   <project path="vendor/miuicamera" 
