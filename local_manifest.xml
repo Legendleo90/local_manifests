@@ -2,6 +2,7 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
+  <remote name="viper" fetch="https://github.com/xiaomi-begonia-dev"/>
   <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
@@ -31,6 +32,12 @@
            name="vendor_miuicamera" 
            remote="Legendleo90" 
            revision="thirteen" />
+
+<!--ViPER4Android FX--> 
+  <project path="packages/apps/ViPER4AndroidFX" 
+           name="android_packages_apps_ViPER4AndroidFX" 
+           remote="viper" 
+           revision="13.0" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
