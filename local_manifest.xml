@@ -2,53 +2,26 @@
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
   <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
-  <remote name="viper" fetch="https://github.com/xiaomi-begonia-dev"/>
-  <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
-           name="device_xiaomi_beryllium"
+           name="device_xiaomi_beryllium_decom"
            remote="tree"
-           revision="alpha" />
+           revision="evo" />
            
-  <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
+  <project path="vendor/xiaomi/beryllium"
+           name="vendor_xiaomi_beryllium_decom"
            remote="tree"
-           revision="alpha" />
+           revision="fourteen" />
            
-  <project path="vendor/xiaomi"
-           name="vendor_xiaomi"
-           remote="tree"
-           revision="thirteen" />
-           
-  <project path="kernel/xiaomi/sdm845"
-           name="kawaii_kernel_sdm845"
+  <project path="kernel/xiaomi/beryllium"
+           name="kernel_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="thirteen" />
+           revision="fourteen" />
 
 <!--MI Cam--> 
   <project path="vendor/miuicamera" 
            name="vendor_miuicamera" 
            remote="Legendleo90" 
            revision="thirteen" />
-
-<!--ViPER4Android FX--> 
-  <project path="packages/apps/ViPER4AndroidFX" 
-           name="android_packages_apps_ViPER4AndroidFX" 
-           remote="viper" 
-           revision="13.0" />
-  
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-playground"
-           name="playgroundtc" 
-           remote="pg" 
-           revision="17" clone-depth="1" />
-  
 </manifest>
