@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="hard" fetch="https://github.com/PixelExperience"/>
   <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
-  <remote name="pg" fetch="https://gitlab.com/PixelOS-Devices" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  
+  <remote name="hard" fetch="https://github.com/PixelExperience"/>
+
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
@@ -23,8 +21,14 @@
            revision="pe" />
            
   <project path="kernel/xiaomi/sdm845"
-           name="kawaii_kernel_sdm845"
-           remote="Legendleo90"
+           name="kernel_xiaomi_beryllium"
+           remote="tree"
+           revision="fourteen" />
+
+<!--MI Cam--> 
+  <project path="vendor/miuicamera" 
+           name="vendor_miuicamera" 
+           remote="Legendleo90" 
            revision="thirteen" />
 
 <!--Hardware--> 
@@ -32,23 +36,4 @@
            name="hardware_xiaomi" 
            remote="hard" 
            revision="thirteen" />
-
-<!--MI Cam--> 
-  <project path="vendor/miuicamera" 
-           name="vendor_miuicamera" 
-           remote="Legendleo90" 
-           revision="thirteen" />
-  
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/clang-playground"
-           name="playgroundtc" 
-           remote="pg" 
-           revision="17" clone-depth="1" />
-
 </manifest>
