@@ -4,6 +4,9 @@
   <remote name="tree" fetch="https://github.com/Oneplus-6T"/>
   <remote name="hard" fetch="https://github.com/PixelExperience"/>
 
+<!--Removals-->
+<remove-project name="frameworks_base" />
+  
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
@@ -36,4 +39,10 @@
            name="hardware_xiaomi" 
            remote="hard" 
            revision="thirteen" />
+
+<!--Custom--> 
+  <project path="frameworks/base" 
+           name="pe_fwb" 
+           remote="Legendleo90" 
+           revision="thirteen-plus" />
 </manifest>
