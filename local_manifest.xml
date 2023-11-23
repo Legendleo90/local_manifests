@@ -44,5 +44,5 @@
   <project path="frameworks/base" 
            name="pe_fwb" 
            remote="Legendleo90" 
-           revision="thirteen-plus" />
+           revision="thirteen" />
 </manifest>
