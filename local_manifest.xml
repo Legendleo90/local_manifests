@@ -1,51 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
-  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
-  <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="13" />
+           revision="pos" />
            
-  <project path="device/xiaomi/sdm845-common"
-           name="device_xiaomi_sdm845-common"
+  <project path="vendor/xiaomi/beryllium"
+           name="vendor_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="rice" />
+           revision="rising" />
            
-  <project path="vendor/xiaomi"
-           name="beryllium-vendor"
+  <project path="kernel/xiaomi/beryllium"
+           name="kernel_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="13" />
-           
-  <project path="kernel/xiaomi/sdm845"
-           name="kernel_xiaomi_sdm845"
-           remote="Legendleo90"
-           revision="thirteen" />
+           revision="fourteen" />
 
-<!--Removals-->
-  <remove-project name="hardware_xiaomi" />
-  
-<!-- Hardware -->
-  <project path="hardware/xiaomi" 
-           name="android_hardware_xiaomi" 
-           remote="ArrowOS-Devices" 
-           revision="arrow-13.0" />
-  
-<!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
-           revision="17" clone-depth="1" />
-  
+  <project path="vendor/miuicamera"
+           name="vendor_miuicamera"
+           remote="Legendleo90"
+           revision="fourteen" />  
 </manifest>
