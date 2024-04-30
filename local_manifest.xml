@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
+  <remote name="cam" fetch="https://gitlab.com/RahulGorai0206"/>
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -16,10 +17,10 @@
   <project path="kernel/xiaomi/beryllium"
            name="kernel_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="fourteen" />
+           revision="fourteen-ksu" />
 
-  <project path="vendor/miuicamera"
-           name="vendor_miuicamera"
-           remote="Legendleo90"
-           revision="fourteen" />  
+  <project path="vendor/xiaomi/memecam"
+           name="vendor_xiaomi_memecam"
+           remote="cam"
+           revision="main" />  
 </manifest>
