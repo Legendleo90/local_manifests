@@ -6,7 +6,7 @@
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="rising" />
+           revision="gos" />
            
   <project path="vendor/xiaomi/beryllium"
            name="vendor_xiaomi_beryllium"
@@ -16,7 +16,7 @@
   <project path="kernel/xiaomi/beryllium"
            name="kernel_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="fourteen-ksu" />
+           revision="fourteen" />
 
   <project path="vendor/miuicamera"
            name="vendor_miuicamera"
