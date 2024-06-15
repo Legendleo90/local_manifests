@@ -6,7 +6,7 @@
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="rising" />
+           revision="los" />
            
   <project path="vendor/xiaomi/beryllium"
            name="vendor_xiaomi_beryllium"
