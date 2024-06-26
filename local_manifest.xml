@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Legendleo90" fetch="https://github.com/Legendleo90"/>
+  <remote name="los" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="device_xiaomi_beryllium"
            remote="Legendleo90"
-           revision="los" />
+           revision="qpr3" />
            
   <project path="vendor/xiaomi/beryllium"
            name="vendor_xiaomi_beryllium"
@@ -21,5 +22,10 @@
   <project path="vendor/miuicamera"
            name="vendor_miuicamera"
            remote="Legendleo90"
-           revision="fourteen" />  
+           revision="fourteen" />
+
+  <project path="hardware/xiaomi"
+           name="android_hardware_xiaomi"
+           remote="los"
+           revision="lineage-21" />
 </manifest>
